@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+}
+
+main {
+  margin: auto;
+  max-width: 980px;
+}
+
+.board {
+  font-family: sans-serif;
+  white-space: nowrap;
+  padding-top: 10px;
+}
+
+.button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.controls {
+  background: #e6f9ff;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 225px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background: #465362;
+  color: #bfdbf7;
+}
+
+.column__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 15px;
+  background: #011936;
+  color: #f4fffd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.form {
+  padding: 10px;
+}
+
+.input {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+div.input > * {
+  margin-right: 15px;
+}
+
+.input:focus {
+  opacity: 1;
+}
